@@ -30,7 +30,7 @@ resource "aws_iam_policy" "example" {
 # GCP
 resource "google_project_iam_binding" "example" {
   project = "example"
-  role    = "roles/owner" # Sensitive
+  role    = "A predefined or custom role scoped to specific resources and actions" # Sensitive
 
   members = [
     "user:jane@example.com",
